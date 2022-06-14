@@ -1,0 +1,110 @@
+   
+
+    main {
+
+      background-color: #F6F6F6 !important;
+      padding-top: 40px;
+
+    }
+
+    @font-face {
+
+      font-family: OpenSans;
+
+      src: url(Fonts/OpenSans-SemiBold.ttf) format('truetype');
+
+    }
+
+    @font-face {
+
+      font-family: OpenSansMedium;
+
+      src: url(Fonts/OpenSans-Medium.ttf) format('truetype'); 
+
+    }
+
+    .padi {
+        border: 15px;
+        padding-bottom: 15px;
+        border-radius: 25px;
+    }
+
+    .navSans { 
+
+      font-family: 'OpenSans', sans-serif;
+
+      color: white;
+      text-decoration: none;
+
+    }
+
+    .tituloObra {
+        
+        color: #32A041;
+    }
+    
+    a.tituloObra:hover {
+        color: #63c771;
+    }
+
+    .navA {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    a.navA:hover {
+        color: #FFFFFF;
+    }
+
+    .navSansMedium {
+
+      font-family: 'OpenSansMedium';
+
+      src: url(Fonts/OpenSans-Medium.ttf) format('truetype');
+
+    }
+
+     .fixarRodape {
+
+      bottom: 0;
+
+      /*position: fixed;*/
+
+      width: 100%;
+
+      text-align: center;
+      min-height: 40px;
+    }
+
+  
+
+
+    .bgVerde {
+
+      background-color: #32A041;
+
+    }
+
+
+
+    .bgBranco {
+
+      background-color: #FFFFFF;
+
+    }
+
+
+
+    .bgCinza {
+
+      background-color: #F6F6F6;
+
+    }
+
+    
+
+    .bgCinzaEscuro {
+
+      background-color: #E0E0E0;
+
+    }
