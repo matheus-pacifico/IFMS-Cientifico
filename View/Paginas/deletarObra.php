@@ -22,11 +22,11 @@
 
 
 
-	<H1 class="padi">Mudar Obra</H1>
+	<H1 class="justify-content-center" style="text-align: center;">Deletar Obra</H1>
 
 
 
-	<form class="padi" method="post" action="../../Controller/deleteObra.php">
+	<form class="justify-content-center padi" style="text-align: center;"method="post" action="../../Controller/deleteObra.php">
 
 
 
