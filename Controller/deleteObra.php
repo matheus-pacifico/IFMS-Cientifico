@@ -1,13 +1,12 @@
 <?php
 
   if($_POST['id'] == "") {
-
-  //$url = "http://localhost  //$url = "http://localhost:8080/obra/deletarporid/{$_POST['id']}";
-:8080/obra/deletarporid/{$_POST['id']}";
-  header('Location: ../View/Paginas/deletarObra.php');
+  
+    header('Location: ../View/Paginas/deletarObra.php');
 
   } else {
 
+    //$url = "http://localhost  //$url = "http://localhost:8080/obra/deletarporid/{$_POST['id']}";
     $url = "http://bookfllix.herokuapp.com/obra/deletarporid/{$_POST['id']}";
 
     $ch = require "init_curl.php";
